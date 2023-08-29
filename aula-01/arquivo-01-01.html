@@ -3,9 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Primeiro Arquivo</title>
+    <title>Página Simples</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      header {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .apollo {
+        background-color: olive;
+        color: #fff;
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 800px;
+        text-align: center;
+      }
+
+      footer {
+        background-color: #555;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>Primeiro Arquivo</h1>
+    <header>
+      <h1>Página Simples</h1>
+    </header>
+    <div class="apollo">
+      <h2>Titulo 2</h2>
+      <p>Parágrafo 1</p>
+      <p>Parágrafo 2</p>
+    </div>
+    <footer>
+      <p>&copy; 2023 Texto Copyright</p>
+    </footer>
   </body>
 </html>
+
+<!--
+
+!DOCTYPE html = Identificador do tipo de arquivo. os robôs do browser já sabem na primeira linha de código qual o tipo de arquivo e como devem interpretar a leitrura desse arquivo para indexar e renderizar.
+
+html = Elemento raiz. Dentro dele serão inseridos todos os demais elementos do arquivo. Indica o início e fim do elemento.
+
+lang = Tipo de linguagem que o arquivo deve ser interpretado/lido pelos robôs do browser
+
+pt-br = Através desse trecho definimos que essa página seja lida usando um dicionário em português do Brasil
+
+head = Elemento responsavél por ser a 'cabeça' do arquivo html. Nele constam informações importantes para a indexação do arquivo por parte dos navegadores/browsers. Os robôs dos browsers fazem a leitura dessas infos para rankear a exibição da página e
+
+meta charset = Define o formato do código de caracteres usado na página
+
+UTF-8 = Padrão de formato de caracteres que contempla quase todas as acentuações e caracteres especiais
+
+meta name = "viewport" = Informar ao browsero tipo de visualização
+
+content="width=device-width, initial-scale=1" = Definir que a largura máxima da página deve se basear na largura da tela do dispositivo e que a escala de zoom é igual a 1 (sem mais nem menos)
+
+title = Informar o título de seu arquivo. É a única meta tag com exibição no browser. É o nome exibido na aba superior.
+
+body = Elemento responsável pelo corpo do arquivo. Elemento que agrupa todos os elementos que são exibidos com a renderização do arquivo.
+
+header = Área de Cabeçalho visível no site
+h1 = Título de maior importância na estrutura.
+
+div .apollo = Área do Miolo visível no site
+h2 = Título de segunda maior importância na estrutura
+p = Parágrafo
+
+footer = Área de Rodapé visível no site
+
+-->
