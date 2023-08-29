@@ -3,52 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Simples</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      header {
-        background-color: #000;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-
-      .apollo {
-        background-color: olive;
-        color: #fff;
-        margin: 0 auto;
-        padding: 20px;
-        max-width: 800px;
-        text-align: center;
-      }
-
-      footer {
-        background-color: #555;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-      }
-    </style>
+    <title>Página Um</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/pagina-1.css" />
   </head>
   <body>
-    <header>
-      <h1>Página Simples</h1>
+    <header class="header header_1">
+      <h1>😊 Página Um</h1>
     </header>
-    <div class="apollo">
-      <h2>Titulo 2</h2>
-      <p>Parágrafo 1</p>
-      <p>Parágrafo 2</p>
-    </div>
-    <footer>
-      <p>&copy; 2023 Texto Copyright</p>
+
+    <main class="principal">
+      <p>Primeira página do meu site</p>
+      <div class="principal__navigation">
+        <h3 class="principal__titulo">Clique nos Links Abaixo</h3>
+        <p class="principal__links">
+          Acesse nossa
+          <a href="./arquivo-01-02.html"><span>Página Dois</span></a> ou a
+          <a href="./arquivo-01-03.html"><span>Página Três</span></a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer footer_1">
+      <p class="footer_copyright">&copy; 2023 Texto Copyright</p>
     </footer>
   </body>
 </html>
@@ -80,7 +57,8 @@ body = Elemento responsável pelo corpo do arquivo. Elemento que agrupa todos os
 header = Área de Cabeçalho visível no site
 h1 = Título de maior importância na estrutura.
 
-div .apollo = Área do Miolo visível no site
+div = Elemeto com função de servir como um box genéricoi, sem semantica, mas que agrupe um ou mais elementos internamente.
+.apollo = Área do Miolo visível no site
 h2 = Título de segunda maior importância na estrutura
 p = Parágrafo
 
