@@ -14,20 +14,16 @@ h1 {
   margin-bottom: 30px;
 }
 
-div {
-  font-family: Helvetica, sans-serif;
-  width: 445px;
-}
-
-div > h2 {
+caption {
   font-size: 16px;
   font-weight: normal;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 table {
   border: 1px solid #ccc;
+  font-family: Helvetica, sans-serif;
 }
 
 td,
