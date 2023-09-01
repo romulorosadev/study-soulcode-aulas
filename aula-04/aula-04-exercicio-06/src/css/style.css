@@ -23,6 +23,7 @@ th,
 td {
   background-color: #fefe00;
   border: 2px solid rgb(209, 207, 207);
+  text-align: center;
 }
 
 .bold {
