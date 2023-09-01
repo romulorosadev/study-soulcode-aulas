@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 25px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+div {
+  font-family: Helvetica, sans-serif;
+  width: 445px;
+}
+
+div > h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+table {
+  border: 1px solid #ccc;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 1px 3px;
+  text-align: center;
+}
+
+td {
+  background-color: yellow;
+  color: green;
+}
+
+.table-header,
+.table-footer td,
+.name,
+.nota-final {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.table-header,
+.table-footer td {
+  background-color: #fff;
+  color: blue;
+}
+
+.name {
+  background-color: #fec0cb;
+  color: #000;
+}
+
+.nota-final {
+  background-color: red;
+  color: #000;
+}

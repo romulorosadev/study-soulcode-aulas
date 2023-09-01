@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 25px;
+}
+
+div {
+  width: 370px;
+}
+
+table {
+  border-collapse: collapse;
+  color: blue;
+  font-size: 18px;
+}
+
+tr,
+th,
+td {
+  border: double rgb(209, 207, 207);
+}
+
+td {
+  padding: 3px 1px;
+}
+
+.odd {
+  background-color: #cdfecd;
+}
+
+.odd td {
+  font-weight: bold;
+  text-align: center;
+}
+
+.even .name {
+  width: 250px;
+}
+
+div p {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}

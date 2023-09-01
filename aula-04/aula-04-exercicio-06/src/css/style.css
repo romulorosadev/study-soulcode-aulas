@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 25px;
+}
+
+div {
+  text-align: center;
+  width: 330px;
+}
+
+table {
+  border: 1px solid rgb(209, 207, 207);
+  border-collapse: initial;
+  color: blue;
+  font-size: 20px;
+}
+
+table td,
+table th {
+  empty-cells: hide;
+}
+
+th,
+td {
+  background-color: #fefe00;
+  border: 1px solid rgb(209, 207, 207);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+div p {
+  color: blue;
+  font-size: 16px;
+}

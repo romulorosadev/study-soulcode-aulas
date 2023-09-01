@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 5px;
+}

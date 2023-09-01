@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 25px 0 0 15px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+#citacao1 {
+  color: green;
+  font-size: 20px;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  width: 430px;
+}
+
+.citacao2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  width: 430px;
+}
+
+.citacao2 q {
+  display: block;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.cor--1 {
+  color: red;
+}
+
+.cor--2 {
+  color: blue;
+}
+
+.citacao2__author {
+  display: block;
+  margin-top: 20px;
+}
